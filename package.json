@@ -1,0 +1,29 @@
+{
+  "name": "discordjs-starting",
+  "version": "1.0.0",
+  "description": "Proyecto para iniciar en discord.js; creado y probado en tiempo real con un bot real.",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "express": "^4.17.3",
+    "fs": "0.0.1-security",
+    "handle-bot": "^0.1.4-alpha"
+  },
+  "devDependencies": {
+    "node": "^16.6.1"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k1-1960/discord.js-starting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k1-1960/discord.js-starting/issues"
+  },
+  "homepage": "https://github.com/k1-1960/discord.js-starting#readme"
+}

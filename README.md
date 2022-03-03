@@ -19,6 +19,37 @@ El prefix por defecto es `ds!` puedes cambiarlo en la variable llamada `prefix` 
 <h1><img src="https://emoji.gg/assets/emoji/6773_Alert.png" width="34" align="top"> Importante</h1>
 
 - No crees archivos en la carpeta eventos o en la de comandos, para añadir comandos o eventos crea una subcarpeta, esto para ordenarlo.
+ejemplo:
+
+```js
+┏ bot/
+┣━ index.js
+┣━ comandos/
+┃   ┃
+┃   ┣━ Normal/
+┃   ┃  ┣━ ping.js
+┃   ┃  ┣━ avatar.js
+┃   ┃  ┗ etc...
+┃   ┃
+┃   ┗━ Moderacion/
+┃       ┣━ kick.js
+┃       ┣━ ban.js
+┃       ┗━ etc...
+┃
+┣━ eventos/
+┃  ┃
+┃  ┣━ Client/
+┃  ┃  ┣━ ready.js
+┃  ┃  ┗━ etc...
+┃  ┃
+┃  ┗ Message/
+┃    ┣ create.js
+┃    ┗ etc...
+┃
+┗━━━━━━━━━━━━━━━━━━━━━
+
+```
+
 - debes activar los intents en la [pagina de desarrolladores de Discord](https://www.discord.com/developers/applications)
 - **NO** proporciones el token de tu bot ni el proyecto a cualquier persona, solo a tu equipo de trabajo.
 
